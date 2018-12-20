@@ -1,3 +1,4 @@
+require 'pry'
 def new_hash
 empty_hash = {}
 return empty_hash
@@ -16,6 +17,7 @@ def monopoly_with_second_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	monopoly = {}
 	monopoly = {:railroads => {}}
+	binding.pry
 	monopoly[:railroads] = {:pieces => 4}
 	monopoly[:railroads] = {:names => {}}
 	monopoly[:railroads] = {:rent_in_dollars => {}}
