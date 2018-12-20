@@ -18,7 +18,7 @@ def monopoly_with_second_tier
 	monopoly.merge!(railroads: {}) 
 	monopoly.railroads.merge!(pieces: 4)
 	monopoly.railroads.merge!(names: {})
-	monopoly[:railroads][:rent_in_dollars] = {}
+	monopoly.railroads.merge!(rent_in_dollars: {})
 end
 
 def monopoly_with_third_tier
