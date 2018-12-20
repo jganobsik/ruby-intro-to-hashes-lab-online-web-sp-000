@@ -9,7 +9,7 @@ end
 
 def monopoly
 	monopoly = {}
-	monopoly.store(:railroads, {}) 
+	monopoly.merge!(railroads: {}) 
 end
 
 def monopoly_with_second_tier
