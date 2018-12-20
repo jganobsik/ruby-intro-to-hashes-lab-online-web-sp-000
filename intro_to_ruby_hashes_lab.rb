@@ -9,7 +9,7 @@ end
 
 def monopoly
 	monopoly = {}
-	monopoly.merge!(railroads: {}) 
+	monopoly[railroads] = hash.new 
 end
 
 def monopoly_with_second_tier
