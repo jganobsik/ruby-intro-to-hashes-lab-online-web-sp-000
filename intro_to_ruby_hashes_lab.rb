@@ -15,10 +15,10 @@ end
 def monopoly_with_second_tier
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 	monopoly = {}
-	monopoly.merge!(railroads: {}) 
-	monopoly[railroads].merge!(pieces: 4)
-	monopoly[railroads].merge!(names: {})
-	monopoly[railroads].merge!(rent_in_dollars: {})
+	monopoly.store(railroads: {}) 
+	monopoly[railroads].store(pieces: 4)
+	monopoly[railroads].store(names: {})
+	monopoly[railroads].store(rent_in_dollars: {})
 end
 
 def monopoly_with_third_tier
